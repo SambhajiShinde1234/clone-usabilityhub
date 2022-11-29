@@ -181,20 +181,33 @@ ul {
     height: 46px;
 }
 
-/* Companmies Features */
+/* Companies Features */
 
 .features-header {
     text-align: center;
 }
 
-.features-button {
-    margin-top: 10px;
-}
-
-.features-button i {
-    margin-left: 5px;
+.features-heading-text {
+    margin-bottom: 20px;
 }
 
 .features-section {
-    margin-top: 70px;
+    background-image: url("assets/asset 32.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px var(--padding-inline-section) 0;
+}
+
+.features-card {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 30%;
+    text-align: center;
+}
+
+.features-area {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 40px;
 }
